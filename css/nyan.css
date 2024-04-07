@@ -18,30 +18,36 @@ body {
 }
 .repo {
   position: absolute;
-  top: 0;
-  right: 0;
-  color: black;
-  background: white;
-  padding: 6px 6px;
-  outline: none;
+  top: 40%;
+  left: 0%;
+  color: white;
+  background: transparent;
+  padding: 0px 0px;
+  outline: white;
   z-index: 4;
 }
 .repo i {
   float: left;
   cursor: pointer;
 }
+.repo h1 {
+  float: left;
+  width: auto;
+  font-size: xxx-large;
+  padding-left: 50px;
+}
 .repo span {
   float: left;
   padding-left: 0;
+  width: 0;
   line-height: 32px;
   overflow: hidden;
-  width: 0;
   max-width: 0;
   white-space: nowrap;
   transition: max-width 1s;
+  padding-left: 6px;
 }
 .repo:hover span {
-  padding-left: 6px;
   width: auto;
   max-width: 200px;
 }
